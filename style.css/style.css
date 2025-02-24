@@ -118,6 +118,9 @@ nav ul li a{
     margin-top: 42px;
     margin-left: 70px;
 }
+nav ul li a:hover{
+    
+}
 .velto a{
     /* width: 100px;
     height: 100px; */
@@ -344,7 +347,7 @@ header{
      background-image: linear-gradient(to right,  var(--brown),var(--black));
 }
     header ul  a:hover{
-        color:#ffffff ;
+        color:#393939 ;
         transition: 0.2;
     }
 .header4{
@@ -408,6 +411,7 @@ footer {
     position: relative;
     margin-bottom: 80px;
     margin-left: 300px;
+    margin-top: 50px;
 }
 
 .dishes_cintainer .sawmelebi {
@@ -424,7 +428,9 @@ footer {
 .dishes_cintainer section.flex {
     justify-content: center;
 }
-
+.dishes_cintainer section a{
+    color: #000;
+}
 .dishes_cintainer section {
     width: 550px;
     background-color: #FFFFFF;
@@ -435,8 +441,8 @@ footer {
     font-size: 30px;
     font-family: Montserrat-VariableFont;
     position: absolute; 
-    top: 0;
-    left: 150px;
+    top: 20px;
+    left: 250px;
 }
 .dishes_cintainer.flex{
     justify-content: flex-start;
@@ -460,15 +466,15 @@ font-size: 38px;
 }
 
 .dishes_cintainer .sawmelebi {
-    width: 168px;
-    height: 168px;
+    width: 400px;
+    height: 200px;
 }
 
 .dishes_cintainer .sawmelebi img {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px 10px 10px 10px;
-    margin-right: 300px;
+     width: 300px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px; 
+ 
 }
 
 .dishes_cintainer section.flex {
@@ -695,7 +701,16 @@ label {
 /***********************************/
 /***********************************/
 /***********************************/
-
+.see a {
+    font-family: Montserrat-VariableFont;
+    color: #000000;
+    border-radius: 25px;
+    margin:  auto;
+    text-align: center;
+    display: block;
+    padding: 66px 0 98px 0;
+    font-size: 50px;
+}
 /***********************************/
 /***********************************/
 /***********************************/
