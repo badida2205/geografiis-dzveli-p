@@ -20,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .body2{
     background-image: url(../img/magelannnnn.webp);
     background-size: 100%;
@@ -27,44 +28,42 @@
     height: 100%;
     overflow: hidden;
 }
-
+ .body1{
+    width:100% ;
+ height: 100vh;
+ /* overflow: hidden; */
+ background-image: linear-gradient(to right,  var(--blue),var(--green))
+ /* background-image: linear-gradient(to right,  #0F2027 50%,#203A43 50%); */
+ }
  .toggle{
-    font-size: 100px;
+    font-size: 45px;
     color: rgb(0, 0, 0);
     position: absolute;
-    margin-top: 20px;
-    margin-left: 2600px;
+    margin-left: 450px;
 }
 .toggle1{
-    font-size: 100px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
     position: absolute;
-    margin-top: 20px;
-    margin-left: 2600px;
 }
 /***********************************/
 /***********************************/
 /***********************************/
 :root{
-    --blue: #abbaab;
-     --green: #ffffff;
+    --blue: #a6a6a6;
+     --green: #d0d0d0;
      --wight: #FFFFFF;
-     --brown:#2c3e50;
-     --black:#4ca1af;
+     --brown:#0d2b1d;
+     --red:#6b8f71;
+     --black:#e3efd3;
      --gamwirvale:rgba(255, 255, 255, 0.6);
      --darktextcolor:#000000;
      --lighttextcolor:#ffffff;
  }
 
- .body1{
-    width:100% ;
- height: 100vh;
- /* overflow: hidden; */
- background-image: linear-gradient(to right,  var(--blue),var(--green));
- /* background-image: linear-gradient(to right,  #0F2027 50%,#203A43 50%); */
- }
+
  body{
-    width:100% ;
+    width:100%;
     height: 100vh;
     /* overflow: hidden; */
     background-image: linear-gradient(to right,  var(--blue),var(--green));
@@ -73,27 +72,46 @@
 /***********************************/
 /***********************************/
 /***********************************/
-.velto a {
-    font-size: 100px;
+h1 a {
+    font-size: 50px;
     color: #ffffff;
     font-family: Montserrat-VariableFont;
-margin-top: 36px;
-margin-left: 76px;
 
 }
-.velto2 a {
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Michelin-Starred {
+    font-size: 72px;
+    color: #000000;
+    text-align: center;
+    font-family: Montserrat-VariableFont;
+    margin-top: 160px;
+}
+.Michelin-Starred span {
+    display: block;
+}
+.the {
+    color: #000000;
+    font-size: 35px;
+    width: 908px;
+    text-align: center;
+    margin: 24px auto;
+    font-family: Montserrat-VariableFont;
+    margin-bottom: 160px;
+}
+/* .velto2 a {
     font-family: Montserrat-VariableFont;
     color: #000000;
-    font-size: 50px;
-    margin-right: 50px;
-    margin-right: 20px;
+    font-size: 20px;
 }
 .velto3 a {
     font-family: Montserrat-VariableFont;
     color: #000000;
-    font-size: 50px;
-    margin-right: 250px;
-}
+    font-size: 20px;
+} */
 .velto4 a{
     font-size: 100px;
     color: #000000;
@@ -113,27 +131,16 @@ margin-left: 76px;
     font-size: 50px;
     margin-right: 50px;
 }
-nav ul li a{
-    width: 200px;
-    margin-top: 42px;
-    margin-left: 70px;
-}
-nav ul li a:hover{
-    
-}
 .velto a{
     /* width: 100px;
     height: 100px; */
-    font-size: 100px;
-}
-.velto2 a{
     font-size: 50px;
 }
 /***********************************/
 /***********************************/
 /***********************************/
 .yvela{
-margin-left: -320px;
+
 }
 .innerimage p{
     position: absolute;
@@ -149,29 +156,30 @@ overflow: hidden;
 transition: 0.4s;
 margin-left: 1px;
 border-radius: 10px 10px 10px 10px;
-font-size: 50px;
+font-size: 20px;
 }
 .innerimage div {
     position: relative;
 }
 .innerimage div:hover p{
-    height: 350px;
-    width: 500px;
-    margin-top: 300px;
+    height: 150px;
+    width: 250px;
+    margin-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
 }
 .yvela img{
     border-radius: 10px 10px 10px 10px;
-    width: 500px;
-    height: 350px;
+    width: 250px;
+    height: 150px;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 50px;
-    margin-top: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .yvela div a{
-    font-size: 40px;
+    font-size: 20px;
 color: #4DC7A0;
 font-weight: 600;
 margin-right: 4px;
@@ -179,30 +187,11 @@ margin-right: 4px;
 /***********************************/
 /***********************************/
 /***********************************/
-.Michelin-Starred {
-    font-size: 100px;
-    color: #000000;
-    text-align: center;
-    font-family: Montserrat-VariableFont;
-    margin-top: 200px;
-}
-.Michelin-Starred span {
-    display: block;
-}
-.the {
-    color: #000000;
-    font-size: 50px;
-    width: 908px;
-    text-align: center;
-    margin: 24px auto;
-    font-family: Montserrat-VariableFont;
-    margin-bottom: 50px;
-}
 .kont{
-    color: #4DC7A0;
+    color: #00d773;
 }
 .record{
-    color: #4DC7A0;
+    color: #00d773;
 }
 .kitxva {
 color: #FFFFFF;
@@ -225,19 +214,18 @@ color: #FFFFFF;
     }
     .button111 a{
         color: #ffffff;
-        font-size: 40px;
+        font-size: 30px;
         font-family: Montserrat-VariableFont;
         text-align: center;
-        width: 330px;
-        height: 100px;
+        width: 180px;
+        height: 70px;
         margin: 66px auto;
         display: block;
         border-radius: 12px;
         background-color: #000000;
         margin-top: 66px;
         margin-bottom: 66px;
-        padding: 16px 20px;
-        margin-left: 1280px;
+        padding: 14px 20px;
     }
 /***********************************/
 /***********************************/
@@ -273,8 +261,8 @@ transition: 0.4s;
 /***********************************/
 /***********************************/
 .mainartikle{
-    height: 600px;
-    width: 550px;
+    height: 400px;
+    width: 600px;
     background-color: #d5d5d5;
     overflow: hidden;
     border-radius: 10% 10% 10% 10%;
@@ -284,17 +272,17 @@ transition: 0.4s;
 }
 .limon{
     background-color: #848484;
-    margin-left: 100px;
+    
 }
 .fortoxali{
     background-color: #616161;
     color: #FFFFFF;
-    margin-left: 100px;
+    
 }
 .mango{
     background-color: #373737;
     color: #ffffff;
-    margin-left: 100px;
+    
 }
 .mainartikle div{
     width: 100%;
@@ -314,25 +302,30 @@ overflow: hidden;
 white-space: nowrap;
 text-overflow: ellipsis;
 width: 300x;
-color: rgb(255, 255, 255);
+
 }
 .mainartikle section h2{
-font-size: 70px;
+font-size: 40px;
 }
 .mainartikle section p a{
-color: rgb(0, 0, 0,0.8);
+color: rgba(255, 255, 255, 0.8);
 text-decoration: underline;
 list-style-type: none;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 19px;
+}
+.mainartiklee section p a{
+color: rgba(0, 0, 0, 0.8);
+text-decoration: underline;
+list-style-type: none;
+    text-decoration: none;
+    font-size: 19px;
 }
 .articlcontainer{
     display: flex;
     /* justify-content: space-between; */
     padding: 34px 34px 48px 34px;
-    margin-top: 74px;
-    margin-left: 56px;
-    margin-right: 60px;
+    margin-left: -100px;
 }
 /***********************************/
 /***********************************/
@@ -341,7 +334,7 @@ list-style-type: none;
 
 }
 header{
-    padding: 64px  38px;
+    padding: 28px 72px;
     /* align-items: center; */
     /* display: flex; */
      background-image: linear-gradient(to right,  var(--brown),var(--black));
@@ -360,16 +353,14 @@ header{
     .itf{
     width: 128px;
 margin: auto;
-padding: 50px 0 40px 0;
-  height: 128px;
+margin-top: 30px;
 }
 footer {
+    width: 100%;
     background-color: #1c1c1c;
-    margin-top: 70px;
-}
-.footer2 {
-    background-color: #1c1c1c;
-    margin-top: 414px;
+    color: #fff; /* ტექსტი თეთრად */
+    padding: 10px 0;
+height: 100px;
 }
 .footer2{
     position: fixed;
@@ -378,45 +369,26 @@ footer {
     width: 100%;
     background-color: #1c1c1c;
     color: #fff; /* ტექსტი თეთრად */
-    text-align: center;
     padding: 10px 0;
-     height: 180px;
-}
-.abc a img{
-    width: 40px;
-    margin-left: 30px;
-    margin: 0 auto;
-}
-.def a img{
-    width: 40px;
-    margin: 0 auto;
-    margin-left: 30px;
-}
-.ikl a img{
-    width: 40px;
-    margin: 0 auto;
-    margin-left: 30px;
-}
-.itf{
-    margin-left: 1355px;
+height: 100px;
 }
 /***********************************/
 /***********************************/
 /***********************************/
 .wvenebisphotoebi{
-    width: 1350px;
+    /* width: 1350px; */
     }
 .dishes_cintainer {
-    width: 540px;
+    /* width: 540px; */
     position: relative;
     margin-bottom: 80px;
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: 50px;
 }
 
 .dishes_cintainer .sawmelebi {
-    width: 168px;
-    height: 168px;
+    /* width: 168px;
+    height: 168px; */
 }
 
 .dishes_cintainer .sawmelebi img {
@@ -432,17 +404,16 @@ footer {
     color: #000;
 }
 .dishes_cintainer section {
-    width: 550px;
+    width: 400px;
     background-color: #FFFFFF;
-    box-shadow: 5px 5px 5px #b1b1b1;
     border-radius: 20px;
-    height: 200px;
+    height: 130px;
     padding: 24px 52px;
     font-size: 30px;
     font-family: Montserrat-VariableFont;
     position: absolute; 
-    top: 20px;
-    left: 250px;
+    top: 10px;
+    left: 170px;
 }
 .dishes_cintainer.flex{
     justify-content: flex-start;
@@ -452,27 +423,28 @@ footer {
 }
 
 .dishes_cintainer_flex {
-    width: 2100px;
-    margin: 0 auto;
+    /* width: 2100px; */
+    /* margin: 0 auto; */
 }
 .dishes_cintainer section  a{
-font-size: 38px;
+font-size: 20px;
 }
  
 .dishes_cintainer {
-    width: 746px;
+    width: 650px;
     position: relative;
     margin-bottom: 100px;
+    height: 180px;
 }
 
 .dishes_cintainer .sawmelebi {
-    width: 400px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
 }
 
 .dishes_cintainer .sawmelebi img {
-     width: 300px;
-    height: 250px;
+     width: 200px;
+    height: 150px;
     border-radius: 10px 10px 10px 10px; 
  
 }
@@ -509,10 +481,10 @@ font-size: 38px;
 .romel{
     background: #ffffff;
     border-radius: 20px;
-    width: 900px;
-    height: 150px;
-    font-size: 40px;
-    padding: 40px 60px 40px 20px;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    padding: 16px 20px 20px 20px;
     margin: 0 auto;
 }
 .mamardasay p{
@@ -529,61 +501,62 @@ font-size: 38px;
 .button{
     background: #e7e2ff;
     color: #00001e;
-    width: 200px;
-    height: 100px;
+    width: 100px;
+    height: 50px;
     border-radius: 5px;
     border: 2px solid #c8bbff;
     text-align: center;
     cursor: pointer;
     margin: 50px auto;
-    font-size: 40px;
-    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    padding: 10px 20px 10px 17px;
 }
 .button1{
     background: #e7e2ff;
     color: #00001e;
-    width: 200px;
-    height: 140px;
+    width: 100px;
+    height: 70px;
     border-radius: 5px;
     border: 2px solid #c8bbff;
     text-align: center;
     cursor: pointer;
     margin: 50px auto;
-    font-size: 40px;
-    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    padding: 20px 20px 20px 16px;
 }
 .button:hover{
     background: #beb0fc;
 }
 .answer{
     margin-left: 1px;
-    width: 700px;
-    height: 140px;
-    font-weight: 300;
+    width: 300px;
+    height: 70px;
+    font-weight: 10;
     border-radius: 20px;
+    font-size: 10px;
 }
 input{
     font-size: 25px;
     margin-left: 10px;
 }
 .answer input{
-    width: 500px;
-    height: 140px;
+    width: 40px;
+    height: 70px;
     padding: 20px;
     outline: none;
     display: none;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 25px;
 }
 .checkanswer{
-    width: 200px;
-    height: 100px;
+    width: 40px;
+    height: 70px;
     background-image: url(../img/check.png);
     background-size: 100%;
     background-repeat: no-repeat;
     display: none;
     background-color: #beb0fc;
-    font-size: 50px;
+    font-size: 20px;
     padding: 20px 20px 20px 20px;
 }
 .showanswer{
@@ -639,8 +612,8 @@ label {
 /***********************************/
 /***********************************/
 .image-container img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 200px;
     transition: opacity 0.3s ease;
 }
 
@@ -681,20 +654,20 @@ label {
     margin-top: 30px;
 }
 .h2hhh{
-    font-size: 70px;
+    font-size: 50px;
     color: #0084ff;
     margin-left: 30px;
     margin-top: 30px;
 }
 .p1{
-    font-size: 50px;
-    width: 2000px;
+    font-size: 25px;
+    width: 500px;
     margin-left: 30px;
     margin-top: 30px;
 }
 .p2{
-    font-size: 50px;
-    width: 2000px;
+    font-size: 25px;
+    width: 500px;
     margin-left: 30px;
     margin-top: 30px;
 }
@@ -709,7 +682,7 @@ label {
     text-align: center;
     display: block;
     padding: 66px 0 98px 0;
-    font-size: 50px;
+    font-size: 25px;
 }
 /***********************************/
 /***********************************/
@@ -718,3 +691,34 @@ label {
 /***********************************/
 /***********************************/
 /***********************************/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-button {
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: -2%;
+    background-color: #6b8f71;
+    border: 1px solid #0d2b1d;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: 310px;
+    height: 50px;
+    text-align: center;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+.dropdown-menu a {
+    padding-right:20px ;
+    color: rgb(255, 255, 255);
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}

@@ -8,15 +8,25 @@
     <title>Document</title>
 </head>
 <body class="body2">
-    <header class="header4 flex">
-        <h1 class="velto4"><a href="index.html">ANDRiA</a></h1>
+    <header class="header flex">
+        <h1 class="velto"><a href="index.html">ANDRiA</a></h1>
         <nav>
             <ul class="flex">
-                <li class="velto1"><a href="index.html">მთავარი</a></li>
-                <li class="velto5"><a href="record.html">რეკორდები</a></li>
-                <!-- <li class="velto"><a href="#">VIP</a></li> -->
+                <!-- <li class="velto2"><a href="record.html">რეკორდები</a></li>
+                <li class="velto3"><a href="chalenge.html">გამოცდა</a></li> -->
+                <p class="toggle" onclick="switchf(this)"><i class="fa-solid fa-toggle-off"></i></p>
+        <!-- <i class="fa-solid fa-toggle-on"></i> -->
             </ul>
         </nav>
+         <div class="dropdown">
+            <i class="fa-solid fa-bars fa-fade dropdown-button"></i>
+        <div class="dropdown-menu">
+            <a href="record.html">რეკორდები</a>
+            <a href="index.html">მთავარი</a>
+
+        
+        </div>
+    </div>
     </header>
     <main>
         <div class="buttons-container">
@@ -37,13 +47,13 @@
             <p class="message" id="message"></p>
         </div>
     </main>
-    <footer class="footer2">
         
-        <div class="itf flex">
-            <div class="abc"><a href="#"><img src="img/insta.png" alt=""></a></div>
-            <div class="def"><a href="#"><img src="img/twiter.png" alt=""></a></div>
-            <div class="ikl"><a href="#"><img src="img/facebook.png" alt=""></a></div>
-        </div>
+        <footer class="footer2">
+            <div class="itf flex">
+                <div class="abc"><a href="https://www.instagram.com/apheradze/"><img src="img/insta.png" alt=""></a></div>
+                <div class="def"><a href="#"><img src="img/twiter.png" alt=""></a></div>
+                <div class="ikl"><a href="#"><img src="img/facebook.png" alt=""></a></div>
+            </div>
     </footer>
     <script src="js/scripts.js"></script>
    <script src="js/button.js"></script>
